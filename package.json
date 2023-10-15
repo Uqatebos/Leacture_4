@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "game": "./bin/game.js",
+    "analiz": "./bin/analyzer.js"
+  },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC"
