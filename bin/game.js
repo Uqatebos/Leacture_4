@@ -37,7 +37,7 @@ const wrongAnswer = (number, data) => {
   }
 };
 
-const endGameMessage = () => console.log("Если хотите закончить игру, напишите: 'Закончить игру'");
+const endGameMessage = () => console.log("Если хотите закончить игру, напишите: 'Закончить игру' тест");
 
 
 const closeGameMessage = (logsFile, pathTologsFile) => console.log(`Игра закончена, создан файл с логами: ${logsFile}\nНайти его можно по пути: ${pathTologsFile}`)
