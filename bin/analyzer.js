@@ -22,7 +22,7 @@ const calcWinrate = (data) => {
   const numberOfLoose = totalNuberOfGames - numberOfWin;
   const winrate = `${((numberOfWin / totalNuberOfGames) * 100).toFixed(2)}%`;
   console.log(
-    `Был произведен анализ файла с логами:\nОбщее количество партий: ${totalNuberOfGames}\nКоличество выигранных партий: ${numberOfWin}\nКоличество проигранных партий: ${numberOfLoose}\nОбщий винрейт: ${winrate}`
+    `Был произведен анализ файла с логами:\nОбщее количество партий: ${totalNuberOfGames}\nКоличество ntcn выигранных партий: ${numberOfWin}\nКоличество проигранных партий: ${numberOfLoose}\nОбщий винрейт: ${winrate}`
   );
 };
 
